@@ -1,0 +1,17 @@
+C:\Users\Krishna\Desktop\git code>git remote add orgin https://github.com/nandhiniaAp/fullstack.git
+error: remote orgin already exists.
+C:\Users\Krishna\Desktop\git code>git add .
+
+C:\Users\Krishna\Desktop\git code>git commit -m "css file"
+[main 376ed14] css file
+ 1 file changed, 41 insertions(+)
+ create mode 100644 button.txt
+C:\Users\Krishna\Desktop\git code>git push origin
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 601 bytes | 601.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/nandhiniaAp/fullstack.git
+   4a19ac9..376ed14  main -> main
