@@ -15,3 +15,34 @@ Writing objects: 100% (3/3), 601 bytes | 601.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 To https://github.com/nandhiniaAp/fullstack.git
    4a19ac9..376ed14  main -> main
+C:\Users\Krishna\Desktop\git code>git pull
+
+C:\Users\Krishna\Desktop\git code>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+C:\Users\Krishna\Desktop\git code>git diff
+diff --git a/add and push code.txt b/add and push code.txt
+index c37a8c5..afb208d 100644
+--- a/add and push code.txt
++++ b/add and push code.txt
+C:\Users\Krishna\Desktop\git code>git branch
+* main
+
+C:\Users\Krishna\Desktop\git code>get checkout -b "newbranch"
+'get' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Krishna\Desktop\git code>git checkout -b "new"
+Switched to a new branch 'new'
+
+C:\Users\Krishna\Desktop\git code>git branch
+  main
+* new
+C:\Users\Krishna\Desktop\git code>git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+C:\Users\Krishna\Desktop\git code>git branch
+* main
+  new
